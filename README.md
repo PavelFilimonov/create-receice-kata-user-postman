@@ -1,7 +1,7 @@
 # create-receice-kata-user-postman
 
-##Register POST https://blog.kata.academy/api/users
-###Request:
+## Register POST https://blog.kata.academy/api/users
+### Request:
 {
   "user": {
     "username": "Fievel",
@@ -10,7 +10,7 @@
   }
 }
 
-###Response:
+### Response:
 {
     "user": {
         "username": "fievel",
@@ -19,8 +19,8 @@
     }
 }
 
-##Authentication POST https://blog.kata.academy/api/users/login
-###Request:
+## Authentication POST https://blog.kata.academy/api/users/login
+### Request:
 {
   "user": {
     "email": "pavelfilimonov@gmail.com",
@@ -28,7 +28,7 @@
   }
 }
 
-###Response:
+### Response:
 {
     "user": {
         "username": "fievel",
@@ -37,10 +37,10 @@
     }
 }
 
-##Get current user GET https://blog.kata.academy/api/user
-###Request: No parameters
+## Get current user GET https://blog.kata.academy/api/user
+### Request: No parameters
 
-###Response:
+### Response:
 {
     "user": {
         "username": "fievel",
